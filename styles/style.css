@@ -15,6 +15,7 @@ font-size: 20px;
 padding: 20px 25px;
 border: 0;
 border-radius: 5px;
+cursor: pointer;
 }
 /* header style :start */
 .header{
@@ -168,6 +169,7 @@ margin-bottom: 31px;
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   margin-bottom: 16px;
+  color: #F3F3F3;
 }
 .footer-right input::placeholder{
   color: #F3F3F3;
@@ -180,4 +182,5 @@ font-weight: 600;
 font-size: 20px;
 color: #FFFFFF;
 padding: 20px 36px;
+cursor: pointer;
 }
