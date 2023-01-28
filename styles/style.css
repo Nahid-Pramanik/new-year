@@ -84,5 +84,100 @@ margin-bottom: 50px;
 .plan-content{
   display: flex;
   justify-content: space-between;
-  margin: 0 230px;
+  margin: 0 100px;
+  gap: 85px;
+}
+.plan-card{
+  align-items: center;
+  text-align: center;
+}
+.plan-card-title{
+  font-weight: 700;
+font-size: 30px;
+color: #151414;
+margin-top: 10px;
+}
+.plan-card-description{
+  font-weight: 500;
+font-size: 25px;
+color: #737272;
+margin-top: 16px;
+}
+/* positive style :start */
+.positive-content{
+  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 200px;
+  
+}
+.positive-title{
+  font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+padding: 69px 64px 24px 65px;
+max-width: 460px;
+}
+.btn-secondury{
+  margin: 0 65px 59px 65px;
+}
+/* footer style :start */
+.footer{
+  background: #151414;
+}
+.footer-content{
+  display: flex;
+  padding: 130px 150px;
+  gap: 100px;
+}
+.footer-left{
+
+}
+.footer-title{
+  font-weight: 700;
+font-size: 45px;
+color: #F8F8F8;
+margin-bottom: 16px;
+}
+.footer-description{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 580px;
+}
+.footer-text{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.footer-img{
+  margin-top: 32px;
+  margin-right: 17px;
+}
+.footer-right-title{
+  font-weight: 600;
+font-size: 25px;
+color: #FFFFFF;
+margin-bottom: 31px;
+}
+.email{
+  width: 325px;
+  padding: 21px;
+  background: #151414;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.footer-right input::placeholder{
+  color: #F3F3F3;
+  
+}
+.footer-btn{
+  background: #005FAC;
+border-radius: 8px;
+font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+padding: 20px 36px;
 }
