@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  font-family: 'Work Sans';
+}
+a{
+  text-decoration: none;
+}
+section{
+  margin-bottom: 130px;
+}
+.btn-primary{
+  color: #005FAC;
+  font-weight: 600;
+font-size: 20px;
+padding: 20px 25px;
+border: 0;
+border-radius: 5px;
+}
+/* header style :start */
+.header{
+  background: url(../images/banner/banner3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 130px;
+}
+.header-content{
+  width: 500px;
+  padding: 180px 0px 84px 700px;
+  text-align: right;
+}
+.header-title{
+  font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+margin-bottom: 24px;
+}
+.header-description{
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+/* previous style :start */
+.previous-content{
+  display: flex;
+  margin: 0 200px 0 150px;
+  gap: 80px;
+}
+.previous-img img{
+  width: 560px;
+}
+.previous-text{
+  align-items: center;
+  padding-top: 250px;
+}
+.section-title{
+  font-weight: 700;
+font-size: 40px;
+color: #151414;
+  margin-bottom: 24px;
+}
+.section-description{
+  color: #444343;
+  font-size: 16px;
+  margin-bottom: 16px;
+  width: 415px;
+}
+.section-text{
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+}
+.section-text > i{
+  color: #16D887;
+}
+/* plan style :start */
+.plan-title{
+  font-weight: 700;
+font-size: 40px;
+color: #151414;
+text-align: center;
+margin-bottom: 50px;
+}
+.plan-content{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 230px;
+}
